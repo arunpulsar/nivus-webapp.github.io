@@ -69,7 +69,7 @@ body{
   }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
   background:none;
-  color:rgb(0, 150, 220)!important;
+  color:rgb(0, 150, 220)!important; /*NIVUS 100% process Cyan (CMYK) or RAL 5015. RGB code is 0•150•220*/
   background-color: #13225d; 
   }
 .drop_1 {   /*background-color has an impact*/

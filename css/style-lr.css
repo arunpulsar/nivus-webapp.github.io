@@ -1,5 +1,5 @@
 .accordion { 
-  background: #00A0DC;
+  background: #0096DC; /*NIVUS 100% process Cyan (CMYK) or RAL 5015. RGB code is 0•150•220*/
   min-width: 940px;
 }
 .accordion-tabs {
@@ -89,7 +89,7 @@
   .accordion-tabs .accordion-tab {
     background: rgba(68, 127, 255, 0.1);
     padding: 1rem 2rem;
-    font-family:'Segoe UI SemiBold';src: url('fonts/segoeui.woff2') format('woff2'); 
+    font-family:'Segoe UI SemiBold';src: url('../fonts/segoeui.woff2') format('woff2'); 
     font-size: 36pt;
     font-weight:500;
     color: rgb(255, 255, 255);
