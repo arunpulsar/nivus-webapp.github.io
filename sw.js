@@ -35,6 +35,8 @@ self.addEventListener('install', e => {
           '/web-app/js/ekko-lightbox.js',
           '/web-app/js/jquery-2.1.1.min.js',
           '/web-app/js/jquery-impromptu.js',
+		  '/web-app/js/lang.de.js',
+		  '/web-app/js/lang.en.js',
           '/web-app/js/script-lr2.js',
           '/web-app/js/slider.js',
           '/web-app/img/pulsaricon-rgb64_2.png',
