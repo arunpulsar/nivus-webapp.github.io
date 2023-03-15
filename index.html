@@ -1066,7 +1066,7 @@ async function incomingData(event){
       isTerminated=1;
       var elements = document.querySelectorAll("button[type=button]");   
         for(var i = 0, len = elements.length; i < len; i++)
-          document.getElementById(elements[i].id).style.background = '#F37021';
+          document.getElementById(elements[i].id).style.background = '#40547c';//'#F37021';
     }
     
     async function bleTDisconnect()
@@ -1085,7 +1085,7 @@ async function incomingData(event){
         }
         var elements = document.querySelectorAll("button[type=button]");   
           for(var i = 0, len = elements.length; i < len; i++)
-            document.getElementById(elements[i].id).style.background = '#F37021';
+            document.getElementById(elements[i].id).style.background = '#40547c';//'#F37021';
         button_press=0;
         login_stage = 0;
         isDisconnecting=0; // completed
@@ -1139,7 +1139,7 @@ async function incomingData(event){
         bleDisconnect();
       }
       login_stage=0;
-      window.open("https://nivus.com/en/", '_blank').focus;
+      window.open("https://www.nivus.de/de/", '_blank').focus;
     }
 
     // go to NIVUS home page  
@@ -1148,7 +1148,7 @@ async function incomingData(event){
         bleDisconnect();
       }
       login_stage=0;
-      window.open("https://nivus.com/en/", '_blank').focus;
+      window.open("https://www.nivus.de/de/", '_blank').focus;
     }
 
 
@@ -1890,7 +1890,7 @@ function myLoadFunction() {
 
 <style>
 	.button {
-        background-color: rgb(243, 112, 33);
+        background-color: rgb(64,84,124);/*rgb(243, 112, 33);*/
         /* background-color: rgb(51, 179, 74); */
         border: none;
         color: white;
