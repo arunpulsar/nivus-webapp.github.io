@@ -469,7 +469,7 @@ var lang_array = [
     },
     {	//Index 115
         English: "Setting new Bluetooth password. Please wait...",
-        German: "Neue Bluetooth-Passwort festlegen. Bitte Warten...",
+        German: "Neues Bluetooth-Passwort festlegen. Bitte Warten...",
     },
     {	//Index 116
         English: "Acquiring RADAR Parameters. Please wait...",
@@ -585,6 +585,6 @@ var lang_array = [
     },
     {   //Index 144
         English: "Setting new Bluetooth device name. Please wait...",
-        German: "Neue Bluetooth-Gerätenamens festlegen. Bitte Warten...",
+        German: "Neuen Bluetooth-Gerätenamens festlegen. Bitte Warten...",
     },
 ];
